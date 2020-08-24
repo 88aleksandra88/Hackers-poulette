@@ -6,8 +6,8 @@
 - Repository: hackers-poulette
 - Duration: 3 days
 - Deadline: 28/08/2020 17:00
-- Colaborator : 
-- Project: 
+- Colaborator : ##### :point_right:Mail Slowil Aleksandra 
+ 
 
 # The mission:
 
