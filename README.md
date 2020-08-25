@@ -45,3 +45,6 @@ NOTE: All field, except subject, have to be completed. The field subject takes a
 - respond to the user request with Ajax
 
 <img src ="https://www.milesweb.in/hosting-faqs/wp-content/uploads/2019/05/How-To-Deploy-a-PHP-Application-with-Kubernetes-on-Ubuntu-16.04.gif">
+
+
+
