@@ -1,3 +1,4 @@
+@import "https://fonts.googleapis.com/css2?family=Bellota&display=swap";
 form {
     /* Uniquement centrer le formulaire sur la page */
     margin: 0 auto;
@@ -15,16 +16,11 @@ form {
 
 
   }
-  @font-face {
-    font-family: "bellotabold";
-    src: url("assets/fonts/Bellota-Bold.otf");
-  
-    font-weight: normal;
-    font-style: normal;
-  }
   body {
-    font-family: "bellotabold";
-  }
+  
+      font-family: "Bellota", cursive;
+    }
+  
   
   form div + div {
     margin-top: 1em;
@@ -72,4 +68,8 @@ form {
     /* Cette marge supplémentaire représente grosso modo le même espace que celui
        entre les étiquettes et les champs texte */
     margin-left: .5em;
+  }
+  .jumbotron jumbotron-fluid{
+    display: flex;
+    justify-content: center;
   }

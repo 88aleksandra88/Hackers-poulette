@@ -11,13 +11,13 @@
   <link rel="stylesheet" href="assets/style.css">
   <link rel="icon" type="image/png" href="assets/img/hackers-poulette-logo.png" />
 
-  <title>Hello, world!</title>
+  <title>Hackers-poulette</title>
 </head>
 
 <body>
   <!--Header-------------------------------------------------------------------------------->
   <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info" id="header">
       <a class="navbar-brand">Hacker-poulette</a>
       </button>
       <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -34,13 +34,14 @@
   </header>
   <!--Jumbo------------------------------------------------------------------------------------------>
   <div class="jumbotron jumbotron-fluid">
-    <div class="container">
+    <img src="assets/img//hackers-poulette-logo.png"  width="250" height="250">
+
       <h1 class="display-4">How can we help?</h1>
       <p class="lead">Need to get in touch witch the team? We're all ears.</p>
     </div>
   </div>
   <!---FORM----------------------------->
-  <form action="assets/recup_donnes.php" method="POST" aria-label="Contact form">
+  <form action="recup_donnes.php" method="POST" aria-label="Contact form">
 
     <div class="form-group" text-center">
       <label for="uname">Last name:</label><span style="color: red !important; display: inline; float: none;">*</span>
@@ -336,7 +337,6 @@
         <option value="3">3</option>
       </select>
     </div>
-
     <!-- Message -->
     <div class="form-group">
       <label for="message">Message:</label><span style="color: red; display: inline; float: none;">*</span>
@@ -349,13 +349,9 @@
   </form>
   </div>
   </div>
+ </form><br /><br /><hr/>
 
-
-
-
-  </form><br /><br />
-
-  <footer class="container footer footer-expand-md navbar-dark ">
+  <footer class="container footer footer-expand-md navbar-dark" id="footer">
     <div class="row">
       <div class="col-12 col-md">
         <img src="assets/img/hackers-poulette-logo.png" width="100" height="100" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false">
