@@ -5,12 +5,10 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
   <link rel="stylesheet" href="assets/style.css">
   <link rel="icon" type="image/png" href="assets/img/hackers-poulette-logo.png" />
-
   <title>Hackers-poulette</title>
 </head>
 
@@ -25,20 +23,17 @@
           <li class="nav-item active">
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
         </ul>
       </div>
     </nav>
   </header>
   <!--Jumbo------------------------------------------------------------------------------------------>
   <div class="jumbotron jumbotron-fluid">
-    <img src="assets/img//hackers-poulette-logo.png"  width="250" height="250">
+    <img src="assets/img//hackers-poulette-logo.png" width="250" height="250">
 
-      <h1 class="display-4">How can we help?</h1>
-      <p class="lead">Need to get in touch witch the team? We're all ears.</p>
-    </div>
+    <h1 class="display-4">How can we help?</h1>
+    <p class="lead">Need to get in touch witch the team? We're all ears.</p>
+  </div>
   </div>
   <!---FORM----------------------------->
   <form action="recup_donnes.php" method="POST" aria-label="Contact form">
@@ -326,7 +321,6 @@
       </select>
     </div>
 
-
     <!-- Subject -->
     <div class="form-group">
       <label for="subject">Subject:</label>
@@ -337,6 +331,7 @@
         <option value="3">3</option>
       </select>
     </div>
+
     <!-- Message -->
     <div class="form-group">
       <label for="message">Message:</label><span style="color: red; display: inline; float: none;">*</span>
@@ -349,7 +344,8 @@
   </form>
   </div>
   </div>
- </form><br /><br /><hr/>
+  </form><br /><br />
+  <hr />
 
   <footer class="container footer footer-expand-md navbar-dark" id="footer">
     <div class="row">
