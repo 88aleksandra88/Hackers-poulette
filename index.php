@@ -43,6 +43,12 @@
   </div>
   </div>
   <!---FORM----------------------------->
+  <div>
+<label for="honeypot"></label>
+<input type="text" class="form-control" id="honeypot" placeholder="U can see me?" name="honeypot">
+</div>
+
+
   <form action="recup_donnes.php" method="POST" aria-label="Contact form">
 
     <div class="form-group" text-center">
@@ -52,10 +58,6 @@
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
 <!--Honeypot---------------------------------------------->
-<div>
-<label for="honeypot"></label>
-<input type="text" class="form-control" id="honeypot" placeholder="U can see me?" name="honeypot">
-</div>
 
 
 
