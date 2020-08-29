@@ -53,7 +53,7 @@
     </div>
 <!--Honeypot---------------------------------------------->
 <div>
-<label for="firstname">Honey pot::</label>
+<label for="honeypot"></label>
 <input type="text" class="form-control" id="honeypot" placeholder="U can see me?" name="honeypot">
 </div>
 
