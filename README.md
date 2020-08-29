@@ -27,6 +27,7 @@ The company Hackers Poulette ™ sells Raspberry Pi accessory kits to build your
 NOTE: All field, except subject, have to be completed. The field subject takes a default value of Other.
 
 ## Instructions
+
  Must have:
 
 - the project repository must include a low-fidelity mock-up
@@ -38,6 +39,7 @@ NOTE: All field, except subject, have to be completed. The field subject takes a
 - the form has to be sanitised and validated (server side)
 - if all required inputs are valid, the script should respond by email to a given address
 - implement a honeypot anti spam technique.
+
 ## Optional:
 
 - client side validation with JavaScript
