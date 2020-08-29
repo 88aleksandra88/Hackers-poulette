@@ -15,6 +15,10 @@ form {
   
       font-family: "Bellota", cursive;
     }
+
+    #honeypot{
+      display: none;
+    }
   
   
   form div + div {

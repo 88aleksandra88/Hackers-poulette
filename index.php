@@ -51,6 +51,13 @@
       <div class="valid-feedback">Valid.</div>
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
+<!--Honeypot---------------------------------------------->
+<div>
+<label for="firstname">Honey pot: :</label>
+<input type="text" class="form-control" id="honeypot" placeholder="U can see me?" name="honeypot">
+</div>
+
+
 
     <div class="form-group" text-center">
       <label for="firstname">First name: :</label><span style="color: red ; display: inline; float: none;">*</span>
