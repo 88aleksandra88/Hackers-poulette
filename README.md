@@ -26,7 +26,7 @@ The company Hackers Poulette ™ sells Raspberry Pi accessory kits to build your
 
 NOTE: All field, except subject, have to be completed. The field subject takes a default value of Other.
 
-## Instructions
+## Instructions:
 
  Must have:
 
