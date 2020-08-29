@@ -14,19 +14,26 @@
 
 <body>
   <!--Header-------------------------------------------------------------------------------->
-  <header>
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-info" id="header">
-      <a class="navbar-brand">Hacker-poulette</a>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+  <a class="navbar-brand">Hackers-poulette</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarCollapse">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Shop</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+
   <!--Jumbo------------------------------------------------------------------------------------------>
   <div class="jumbotron jumbotron-fluid">
     <img src="assets/img//hackers-poulette-logo.png" width="250" height="250">
@@ -352,7 +359,7 @@
       <div class="col-12 col-md">
         <img src="assets/img/hackers-poulette-logo.png" width="100" height="100" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false">
         <title>Product</title></img>
-        <small class="d-block mb-4 text-muted">&copy; 2017-2020</small>
+        <small class="d-block mb-4 text-muted"> &copy; 2017 - 2020</small>
       </div>
       <div class="col-6 col-md">
         <h5>Features</h5>
