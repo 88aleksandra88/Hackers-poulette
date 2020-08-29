@@ -18,6 +18,7 @@ form {
 
     #honeypot{
       display: none;
+      visibility: hidden;
     }
   
   
