@@ -16,6 +16,20 @@ try {
 
 if(isset($_POST['honeypot']) && $_POST['honeypot'] != "")
 die();
+// destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
+$destinataire = 'aleksoujones@gmail.c';
+  
+// copie ? (envoie une copie au visiteur)
+$copie = 'oui'; // 'oui' ou 'non'
+  
+// Messages de confirmation du mail
+$message_envoye = "Votre message nous est bien parvenu !";
+$message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
+  
+// Messages d'erreur du formulaire
+$message_erreur_formulaire = "Vous devez d'abord <a href=\"index.php\">envoyer le formulaire</a>.";
+$message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
+  
 
 
 
@@ -42,6 +56,8 @@ if (isset($_POST['submit'])) {
     $message = $_POST['message'];
   }
 };
+
+
 /*var_dump($_POST);
 (isset($_POST['name']) || (isset($_POST['firstName']) || (isset($_POST['email']) || (isset($_POST['gender']) || (isset($_POST['country']) || (isset($_POST['subject']) || (isset($_POST['message']))))))));{
   // declaration variable*/
