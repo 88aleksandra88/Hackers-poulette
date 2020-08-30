@@ -12,6 +12,8 @@ try {
     die();
 }*/
 
+
+
 if(isset($_POST['honeypot']) && $_POST['honeypot'] != "")
 die();
 
