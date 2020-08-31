@@ -90,7 +90,7 @@
     <div class="form-group">
       <label for="exampleFormControlSelect2">Country:</label><span style="color: red; display: inline; float: none;" required>*</span>
       <?php 
-             include("countrys.html");
+             include("countrys.php");
       ?>
 
     </div>
