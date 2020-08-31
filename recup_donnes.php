@@ -13,20 +13,19 @@ try {
 }
 if(isset($_POST['honeypot']) && $_POST['honeypot'] != "")
 die();
-// destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
 
 if (isset($_POST['submit'])) {
   if (isset($_POST['name'])) {
-    $name = $_POST['name'];
+    $name = htmlspecialchars($_POST['name']);
   }
   if (isset($_POST['firstName'])) {
-    $firstName = $_POST['firstName'];
+    $firstName = htmlspecialchars($_POST['firstName']);
   }
   if (isset($_POST['email'])) {
-    $email = $_POST['email'];
+    $email = htmlspecialchars($_POST['email']);
   }
   if (isset($_POST['gender'])) {
-    $gender = $_POST['gender'];
+    $gender = htmlspecialchars($_POST['gender']);
   }
   if (isset($_POST['country'])) {
     $country = $_POST['country'];
@@ -35,7 +34,7 @@ if (isset($_POST['submit'])) {
     $subject = $_POST['subject'];
   }
   if (isset($_POST['mesage'])) {
-    $message = $_POST['message'];
+    $message = htmlspecialchars($_POST['message']);
   }
 };
 
