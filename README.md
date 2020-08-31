@@ -7,6 +7,7 @@
 - Duration: 3 days
 - Deadline: 28/08/2020 17:00
 - Colaborator :point_right: Slowik Aleksandra 
+- Project :point_right: https://hackers-po.herokuapp.com/
  
 
 # The mission:
