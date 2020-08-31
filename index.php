@@ -124,9 +124,8 @@
   <footer class="container footer footer-expand-md navbar-dark" id="footer">
     <div class="row">
       <div class="col-12 col-md">
-        <img src="assets/img/hackers-poulette-logo.png" width="100" height="100" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false">
+        <img src="assets/img/hackers-poulette-logo.png" width="150" height="150" class="d-block mb-2" role="img" viewBox="0 0 24 24" focusable="false">
         <title>Product</title></img>
-        <small class="d-block mb-4 text-muted"> &copy; 2017 - 2020</small>
       </div>
       <div class="col-6 col-md">
         <h5>Features</h5>
