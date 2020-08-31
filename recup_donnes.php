@@ -1,37 +1,19 @@
 <?php
-/*$user = 'root';
+$user = 'root';
 $pass = '';
 try {
-    $dbh = new PDO('mysql:host=localhost;dbname=hacker-poulette', $user, $pass);
+    $dbh = new PDO('mysql:host=localhost;dbname=hackers-poulette', $user, $pass);
    /* foreach($dbh->query('SELECT * from FOO') as $row) {
         print_r($row);
     }
-    $dbh = null;
+    $dbh = null;*/
 } catch (PDOException $e) {
     print "Erreur !: " . $e->getMessage() . "<br/>";
     die();
-}*/
-
-
-
+}
 if(isset($_POST['honeypot']) && $_POST['honeypot'] != "")
 die();
 // destinataire est votre adresse mail. Pour envoyer à plusieurs à la fois, séparez-les par une virgule
-$destinataire = 'aleksoujones@gmail.c';
-  
-// copie ? (envoie une copie au visiteur)
-$copie = 'oui'; // 'oui' ou 'non'
-  
-// Messages de confirmation du mail
-$message_envoye = "Votre message nous est bien parvenu !";
-$message_non_envoye = "L'envoi du mail a échoué, veuillez réessayer SVP.";
-  
-// Messages d'erreur du formulaire
-$message_erreur_formulaire = "Vous devez d'abord <a href=\"index.php\">envoyer le formulaire</a>.";
-$message_formulaire_invalide = "Vérifiez que tous les champs soient bien remplis et que l'email soit sans erreur.";
-  
-
-
 
 if (isset($_POST['submit'])) {
   if (isset($_POST['name'])) {
@@ -58,9 +40,6 @@ if (isset($_POST['submit'])) {
 };
 
 
-/*var_dump($_POST);
-(isset($_POST['name']) || (isset($_POST['firstName']) || (isset($_POST['email']) || (isset($_POST['gender']) || (isset($_POST['country']) || (isset($_POST['subject']) || (isset($_POST['message']))))))));{
-  // declaration variable*/
 ?>
 
 <!doctype html>
@@ -105,7 +84,7 @@ if (isset($_POST['submit'])) {
       <img src="assets/img//hackers-poulette-logo.png">
       <div class="container">
         <h2 class="display-4">Thank you for your trust!</h2>
-        <p class="lead"><?php echo 'Hello ' . htmlspecialchars($_POST['name'] . '!') ?> <p>Our team wil do they best to respond you as soon as possible.
+        <p class="lead"><?php echo 'Hello ' . htmlspecialchars($_POST['name'] . '!') ?> <p> Your message has been send. Our team wil do they best to respond you as soon as possible.
       </div>
       <br /><br />
   </main>
