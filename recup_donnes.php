@@ -1,16 +1,17 @@
 <?php
-$user = 'root';
+/*$user = 'root';
 $pass = '';
 try {
   $dbh = new PDO('mysql:host=localhost;dbname=hackers-poulette', $user, $pass);
-  /* foreach($dbh->query('SELECT * from FOO') as $row) {
+   foreach($dbh->query('SELECT * from FOO') as $row) {
         print_r($row);
     }
-    $dbh = null;*/
+    $dbh = null;
 } catch (PDOException $e) {
   print "Erreur !: " . $e->getMessage() . "<br/>";
   die();
-}
+}*/
+
 if (isset($_POST['honeypot']) && $_POST['honeypot'] != "")
   die();
 
