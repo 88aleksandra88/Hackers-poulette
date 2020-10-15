@@ -12,32 +12,32 @@ try {
   die();
 }*/
 
-if (isset($_POST['honeypot']) && $_POST['honeypot'] != "")
-  die();
+// if (isset($_POST['honeypot']) && $_POST['honeypot'] != "")
+//   die();
 
-if (isset($_POST['submit'])) {
-  if (isset($_POST['name'])) {
-    $name = htmlspecialchars($_POST['name']);
-  }
-  if (isset($_POST['firstName'])) {
-    $firstName = htmlspecialchars($_POST['firstName']);
-  }
-  if (isset($_POST['email'])) {
-    $email = htmlspecialchars($_POST['email']);
-  }
-  if (isset($_POST['gender'])) {
-    $gender = htmlspecialchars($_POST['gender']);
-  }
-  if (isset($_POST['country'])) {
-    $country = $_POST['country'];
-  }
-  if (isset($_POST['subject'])) {
-    $subject = $_POST['subject'];
-  }
-  if (isset($_POST['mesage'])) {
-    $message = htmlspecialchars($_POST['message']);
-  }
-};
+// if (isset($_POST['submit'])) {
+//   if (isset($_POST['name'])) {
+//     $name = htmlspecialchars($_POST['name']);
+//   }
+//   if (isset($_POST['firstName'])) {
+//     $firstName = htmlspecialchars($_POST['firstName']);
+//   }
+//   if (isset($_POST['email'])) {
+//     $email = htmlspecialchars($_POST['email']);
+//   }
+//   if (isset($_POST['gender'])) {
+//     $gender = htmlspecialchars($_POST['gender']);
+//   }
+//   if (isset($_POST['country'])) {
+//     $country = $_POST['country'];
+//   }
+//   if (isset($_POST['subject'])) {
+//     $subject = $_POST['subject'];
+//   }
+//   if (isset($_POST['mesage'])) {
+//     $message = htmlspecialchars($_POST['message']);
+//   }
+// };
 
 
 ?>
