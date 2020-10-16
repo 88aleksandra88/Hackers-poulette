@@ -41,6 +41,10 @@ mail($to,  $subjectUser, $body);
 
 <body>
 
+  <?php
+  include("footer.html");
+  ?>
+
   <main>
     <div class="jumbotron jumbotron-fluid">
       <img src="assets/img//hackers-poulette-logo.png">
