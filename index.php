@@ -25,8 +25,7 @@
   <!--Jumbo-------------------------------->
 
   <div class="jumbotron jumbotron-fluid">
-    <img class="headline" src="assets/img//hackers-poulette-logo.png" width="250" height="250">
-
+    <img class="headline" src="assets/img//hackers-poulette-logo.png" width="300" height="300" alt="logo" />
     <h1 class="display-4">How can we help?</h1>
     <p class="lead">Need to get in touch witch the team? We're all ears.</p>
   </div>
@@ -94,6 +93,7 @@
     </div>
 
     <button type="submit" class="btn btn-info" role="button" name="submit">Submit</button>
+
   </form>
   </div>
   </div>
@@ -105,17 +105,19 @@
 
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+
   <script>
     ScrollReveal().reveal('.headline', {
       delay: 300
     })
     ScrollReveal().reveal('.display-4', {
-      delay: 500
-    })
-    ScrollReveal().reveal('.lead', {
       delay: 1000
     })
+    ScrollReveal().reveal('.lead', {
+      delay: 1500
+    })
   </script>
+
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
