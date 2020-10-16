@@ -1,43 +1,27 @@
 <?php
-/*$user = 'root';
-$pass = '';
-try {
-  $dbh = new PDO('mysql:host=localhost;dbname=hackers-poulette', $user, $pass);
-   foreach($dbh->query('SELECT * from FOO') as $row) {
-        print_r($row);
-    }
-    $dbh = null;
-} catch (PDOException $e) {
-  print "Erreur !: " . $e->getMessage() . "<br/>";
-  die();
-}*/
 
-// if (isset($_POST['honeypot']) && $_POST['honeypot'] != "")
-//   die();
+echo "<pre>";
+print_r($_POST);
+echo "<pre>";
 
-// if (isset($_POST['submit'])) {
-//   if (isset($_POST['name'])) {
-//     $name = htmlspecialchars($_POST['name']);
-//   }
-//   if (isset($_POST['firstName'])) {
-//     $firstName = htmlspecialchars($_POST['firstName']);
-//   }
-//   if (isset($_POST['email'])) {
-//     $email = htmlspecialchars($_POST['email']);
-//   }
-//   if (isset($_POST['gender'])) {
-//     $gender = htmlspecialchars($_POST['gender']);
-//   }
-//   if (isset($_POST['country'])) {
-//     $country = $_POST['country'];
-//   }
-//   if (isset($_POST['subject'])) {
-//     $subject = $_POST['subject'];
-//   }
-//   if (isset($_POST['mesage'])) {
-//     $message = htmlspecialchars($_POST['message']);
-//   }
-// };
+
+$nameUser = $_POST['name'];
+$firstNameUser = $_POST['firstname'];
+$mailUser = $_POST['email'];
+$countryUser = $_POST['country'];
+$subjectUser = $_POST['subject'];
+$messageUser = $_POST['message'];
+
+$to = "aleksoujones@gmail.com";
+$body = "";
+$body .= "From: " . $nameUser . "\ r\ n";
+$body .= "From: " . $firstNameUser . "\ r\ n";
+$body .= "From: " . $mailUser . "\ r\ n";
+$body .= "From: " . $countryUser . "\ r\ n";
+$body .= "Subject: " . $subjectUser . "\ r\ n";
+$body .= "Message: " . $messageUser . "\ r\ n";
+
+mail($to,  $subjectUser, $body)
 
 
 ?>
@@ -56,9 +40,6 @@ try {
 </head>
 
 <body>
-  <?php
-  include("header.html");
-  ?>
 
   <main>
     <div class="jumbotron jumbotron-fluid">

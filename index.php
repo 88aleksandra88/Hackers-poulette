@@ -46,7 +46,7 @@
       <div class="invalid-feedback">Please fill out this field.</div>
     </div>
 
-    <div class="form-group" text-center">
+    <div class="form-group text-center">
       <label for="firstname">First name: :</label><span style="color: red ; display: inline; float: none;">*</span>
       <input type="text" class="form-control" id="firstname" placeholder="Enter your firstname" name="firstname" required>
       <div class="valid-feedback">Valid.</div>
@@ -99,6 +99,7 @@
   </div>
   </form><br /><br />
   <hr />
+
   <?php
   include("footer.html");
   ?>
