@@ -42,7 +42,7 @@ mail($to,  $subjectUser, $body);
 <body>
 
   <?php
-  include("footer.html");
+  include("header.html");
   ?>
 
   <main>
