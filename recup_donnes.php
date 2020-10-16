@@ -1,8 +1,8 @@
 <?php
 
-echo "<pre>";
-print_r($_POST);
-echo "<pre>";
+// echo "<pre>";
+// print_r($_POST);
+// echo "<pre>";
 
 
 $nameUser = $_POST['name'];
@@ -21,7 +21,7 @@ $body .= "From: " . $countryUser . "\ r\ n";
 $body .= "Subject: " . $subjectUser . "\ r\ n";
 $body .= "Message: " . $messageUser . "\ r\ n";
 
-mail($to,  $subjectUser, $body)
+mail($to,  $subjectUser, $body);
 
 
 ?>
