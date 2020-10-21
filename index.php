@@ -104,9 +104,6 @@
   include("footer.html");
   ?>
 
-  <!-- Optional JavaScript -->
-  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
   <script>
     ScrollReveal().reveal('.headline', {
       delay: 300
