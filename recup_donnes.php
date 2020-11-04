@@ -23,6 +23,8 @@ if (isset($_POST['email']) && $_POST != "") {
     $body .= "From: " . $countryUser . "\r\ n";
     $body .= "Subject: " . $subjectUser . "\r\ n";
     $body .= "Message: " . $messageUser . "\r\ n";
+    
+    mail($to, $subjectUser, $body);
 
     $message_sent = true;
   }
