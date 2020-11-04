@@ -55,7 +55,7 @@ if (isset($_POST['email']) && $_POST != "") {
       <img src="assets/img//hackers-poulette-logo.png">
       <div class="container">
         <h2 class="display-4">Thank you for your trust!</h2>
-        <h3 class="lead"><?php echo 'Hello ' . htmlspecialchars($_POST['name'] . '!') ?></h3>
+        <h3 class="lead"><?php echo 'Hello ' . htmlspecialchars($_POST['firstname'] . '!') ?></h3>
         <p> Your message has been send. Our team wil do they best to respond you as soon as possible.
       </div>
       <br /><br />
